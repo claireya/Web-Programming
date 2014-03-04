@@ -1,0 +1,13 @@
+BODY {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	overflow-y: scroll;
+}
+
+.IndexBG {
+	background-image: url(http://show.aguadesign.com/cityyeast_index_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
