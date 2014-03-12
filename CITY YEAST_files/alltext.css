@@ -1,6 +1,56 @@
-body, table, th, td, a, input, select, button, textarea {
+body, a, input, select, button, textarea {
 	font-family: Verdana, Helvetica, Arial, sans-serif, PMingLiU, 新細明體;
 }
+
+section {	
+	height: 711px;
+	width: 966px;
+}
+
+article {
+	float: left;
+	height: 201px ;
+	width: 125px;
+	margin: 5px ;
+	background-image: url(http://show.aguadesign.com/index_news_bg.png);
+	padding: 13px;
+}
+
+.Text_plan_sub_title { 
+	display: block;
+	width: 111px;
+	padding: 0px;
+}
+
+nav.menu , nav.infomation {
+	background-color: #FFF100 ;
+	padding-top: 6px ;
+	padding-bottom: 6px ;
+}
+
+
+nav.email_form ,nav.menu{
+	/*display: inline;*/
+	float: left;
+}
+
+nav.social_network ,nav.infomation {
+	text-align: right;
+}
+
+footer {
+	
+	padding-top: 13px;
+	padding-bottom: 13px;
+	border-top:1px solid #ccc;
+}
+
+address {
+	font-size: 12px;
+	font-style: normal;
+	text-align: center;
+}
+
 a:link {
 	color: #000000;
 	text-decoration: underline;
@@ -834,7 +884,6 @@ a.guest_number:hover {
 	font-size: 14px;
 	color: #000000;
 	font-weight: bold;
-	padding-bottom: 10px;
 }
 .Text_plan_sub_content {
 	font-size: 12px;
@@ -1823,6 +1872,7 @@ a.guest_number:hover {
 	border: 1px solid #999999;
 	color: #999999;
 }
+
 .form_btn1 {
 	border: 1px solid #999999;
 	background-color: #FFFFFF;

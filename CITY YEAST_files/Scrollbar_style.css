@@ -1,8 +1,9 @@
 BODY {
-	margin-left: 0px;
+	margin-left: auto;
 	margin-top: 0px;
-	margin-right: 0px;
+	margin-right: auto;
 	margin-bottom: 0px;
+	width: 980px;
 	overflow-y: scroll;
 }
 
