@@ -1,0 +1,101 @@
+﻿
+@import url(http://adapt.960.gs/assets/css/960.css);
+
+
+body{
+	font-family: 微軟正黑體 ;
+}
+
+header {
+	
+	background-image: url(https://raw.githubusercontent.com/claireya/wp2014s_hw2/master/Self%20Introduction_files/banner_flower3.jpg); 
+	height: 200px;
+
+}
+
+h1{
+	text-align: center;
+	font-family: 微軟正黑體 ;
+	color: white;
+	padding-top: 100px;
+}
+
+nav{
+	text-align: right;
+	background-color: #66cdaa ;
+	
+}
+nav a{
+	font-family: Lucida Handwriting ,Arial Black ,Verdana ;
+	text-decoration : none !important;
+	color: #008080 ;
+	padding-left:10px;
+	padding-right: 10px; 
+}
+
+#self{
+	background-color: #add8e6 ;
+	height: 545px;
+}
+
+#self img {
+	padding-top: 160px;
+	padding-bottom: 160px;
+	padding-left: 60px;
+	width: 220px;
+	float: left;
+}
+
+#quote {	
+	font-family: Lucida Handwriting ,Arial Black ,Verdana ;	
+	margin-top: 216px;
+	margin-bottom: 216px;
+	padding-right: 60px;
+	clear: right;	
+	font-size: 2em ;
+}
+
+.about_me{
+	text-align: left;
+	font-family: 微軟正黑體 ;
+	padding-left: 250px;
+	padding-top: 142px;
+	padding-bottom: 142px;
+	clear: both;
+	background-color: #87ceeb ;
+}
+
+
+ li {
+ 	list-style-type:none;
+ }
+
+section ul li img {
+	width: 150px;
+	height: 200px;
+	padding: 10px;
+	background-color: #b0e0e6 ;
+}
+
+section h3{
+	background-color: #add8e6 ;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+div {
+	width: 940px;
+	height: 224px;
+}
+
+h2{
+	font-family: Lucida Handwriting , Arial Black ,Verdana ;
+}
+
+footer{
+	text-align: center;
+	font-family: Verdana ;
+	font-size: 10px;
+	background-color: #66cdaa  ; 
+}
+
