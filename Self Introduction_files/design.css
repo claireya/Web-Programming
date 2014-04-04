@@ -1,4 +1,4 @@
-﻿
+
 @import url(http://adapt.960.gs/assets/css/960.css);
 
 
@@ -47,12 +47,12 @@ nav a{
 }
 
 #quote {	
-	font-family: Lucida Handwriting ,Arial Black ,Verdana ;	
+	font-family: 'Londrina Outline', cursive;	
 	margin-top: 216px;
 	margin-bottom: 216px;
 	padding-right: 60px;
 	clear: right;	
-	font-size: 2em ;
+	font-size: 2em;
 }
 
 .about_me{
@@ -78,9 +78,13 @@ section ul li img {
 }
 
 section h3{
-	background-color: #add8e6 ;
 	margin-top: 0px;
 	margin-bottom: 0px;
+}
+
+li:nth-child(1){
+	font-weight: 900;
+	text-decoration:underline;
 }
 
 div {
