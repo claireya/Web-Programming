@@ -27,6 +27,7 @@
                         //document.write("<h3>response.link</h3>");
                         document.getElementById("demo").innerHTML = "My link is" + response.link;
                         //$("body").append(); (要先include JQuery)
+                        document.getElementById("demo").innerHTML = "My email is" + response.email;
                     });
 
 
@@ -43,11 +44,11 @@
                         link: 'http://www.nytimes.com/2011/06/15/arts/people-argue-just-to-win-scholars-assert.html',
                     });*/
 
-					/*FB.api('/me/likes', function (response) {
+					FB.api('/me/likes', function (response) {
                         for (var i = 0; i < response.length; i++){
 							console.log(response.data.name);
 							}
-                    });*/
+                    });
 					
 					/*FB.api('/me/picture?type=normal', function(response) { // normal/large/squere 
 						var str="<img src="+ response.data.url +">";
@@ -78,9 +79,9 @@
                         if (response.authResponse) { // if user login to your apps right after handle an event
                             window.location.reload();
                         };
-                    }/*, {
+                    }, {
                         scope: 'user_about_me,email,user_location,user_photos,publish_actions,user_birthday,user_likes'
-                    }*/);
+                    });
                 } else {
                     console.log("this isn't logged in to Facebook.");
                     FB.login(function (response) {
