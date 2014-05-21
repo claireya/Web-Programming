@@ -24,8 +24,9 @@
                         console.log('My links is' + response.link);
                         console.log('My Username is' + response.username);
                         console.log('My ID is' + response.id);
-                        document.write("<h3>response.link</h3>");
-                        document.getElementById("demo").innerHTML = response.link;
+                        //document.write("<h3>response.link</h3>");
+                        document.getElementById("demo").innerHTML = "My link is" + response.link;
+                        //$("body").append(); (要先include JQuery)
                     });
 
 
