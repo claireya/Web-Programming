@@ -50,17 +50,17 @@
 							}
                     });
 					
-					/*FB.api('/me/picture?type=normal', function(response) { // normal/large/squere 
+					FB.api('/me/picture?type=normal', function(response) { // normal/large/squere 
 						var str="<img src="+ response.data.url +">";
 						$('body').append(str);
-					});*/
+					});
 					
 					
 					
-					/*FB.api('/me/photos', 'post', {
+					FB.api('/me/photos', 'post', {
 						name: 'this is a new photo',
 						message: 'this is parse photo',
-						url: "img/overlay.png"
+						url: "img/overlay.png" //可以用相對位置
 					}, function (response) {
 						if (!response || response.error) {
 							alert('Error occured:' + response);
@@ -68,7 +68,6 @@
 							alert('Post ID: ' + response.id);
 						}
 					});
-*/					
 
 
 
